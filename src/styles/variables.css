@@ -1,0 +1,12 @@
+:root {
+    --color-violet: #930aff;
+    --color-orange: #ff8c00;
+    --color-violet-light: rgba(250, 238, 227, 0.2);
+    --color-violet-ligher: rgba(250, 238, 227, 0.1);
+    --color-orange-light: linear-gradient(
+        180deg,
+        #ff9f1c 0%,
+        #ffb043 50.31%,
+        #ff9f1c 100%
+    );
+}

@@ -1,0 +1,12 @@
+.recipeCreateWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 575px) {
+  .recipeCreate {
+    row-gap: 0px;
+    position: absolute;
+    top: -0.25rem;
+  }
+}

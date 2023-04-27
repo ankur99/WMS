@@ -1,0 +1,26 @@
+.prodcutCardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.productImage {
+    border: 0.568482px solid rgba(0, 0, 0, 0.4);
+    padding: 0.25rem;
+    object-fit: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.card {
+  border: dashed 1px #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  gap: 10px;
+}

@@ -1,0 +1,231 @@
+@import "./variables.css";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Remove uparrow and downarrow for input type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  border-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.ant-table {
+  overflow: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m1 {
+  margin: 1rem;
+}
+
+.m1-b {
+  margin-bottom: 1rem;
+}
+
+.m1-r {
+  margin-right: 1rem;
+}
+
+.m1-t {
+  margin-top: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.m2 {
+  margin: 1rem;
+}
+
+.m2-b {
+  margin-bottom: 1rem;
+}
+
+.m2-t {
+  margin-top: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.fallback-ui {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulkButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+/* to make ant descriptions responsive  */
+.ant-descriptions-view {
+  overflow: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.ant-descriptions-item-label {
+  width: 50%;
+}
+
+.ant-descriptions-item-content {
+  height: 64.5px;
+  width: 50%;
+}
+
+.wareHouseWrapper {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1rem;
+}
+
+.wareHouseHeader {
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+
+/* Making inside panel items to more wider */
+.ant-pro-grid-content.wide {
+  max-width: 1800px !important;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Simple MDE Editor */
+.EasyMDEContainer .CodeMirror-sided, .EasyMDEContainer .CodeMirror-fullscreen {
+  padding-left: 13rem !important;
+}
+
+.editor-toolbar.fullscreen{
+  z-index: 999 !important;
+}
+
+/* For making the buttons in top navbar area */
+.buttonWrapperTop {
+  position: relative;
+  margin-bottom: 1rem;
+}
+/* For large screens only */
+@media screen and (min-width: 575px) {
+  .buttons {
+    position: absolute;
+    top: -4.5rem;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  /* For making the buttons in top navbar area */
+  .buttonWrapperTop {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+}
+
+/* For large screens only */
+@media screen and (min-width: 575px) {
+  .buttonsTop {
+    position: absolute;
+    top: -4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .buttonsTop .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .buttonsTop .ant-space-item {
+    height: 32px;
+  }
+}
+
+/* For making the top buttons in navbar in table */
+.buttonWrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+/* For large screens only */
+@media screen and (min-width: 575px) {
+  .buttons {
+    position: absolute;
+    top: -4.5rem;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  /* For making the buttons in top navbar area */
+  .buttonWrapperTop {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+}
+
+.ant-image-preview-img{
+  display: initial;
+  align-items: center;
+}
+

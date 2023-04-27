@@ -1,0 +1,20 @@
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.info > h3 {
+    margin-right: 0.5rem;
+}
+
+.info > * {
+    margin-bottom: .5rem;
+}

@@ -1,0 +1,20 @@
+.paper {
+  background-color: white;
+  padding: 2rem;
+}
+
+/* Medium Screen */
+/* @media screen and (max-width: 767px) {
+  .paper {
+    background-color: white;
+    padding: 2rem;
+  }
+} */
+
+/* Small Screens */
+
+@media screen and (max-width: 575px) {
+  .paper {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,30 @@
+.dropLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #1890FF;
+    background-position: center;
+    background-color: #fff;
+    border: 1px solid #f1f0f5;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.dropLabel:hover {
+    background-color: #f1f0f5;
+}
+
+.dropLabel img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.fileInput {
+    display: none !important;
+}

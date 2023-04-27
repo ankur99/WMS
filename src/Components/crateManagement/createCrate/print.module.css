@@ -1,0 +1,30 @@
+.container {
+  display: block;
+  /* padding: 0 0.75rem; */
+  margin: auto;
+  /* padding-right: 30vh; */
+  /* font-size: 23px; */
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+.qrCodeElement {
+  /* width: 50%; */
+  display: inline-block;
+  width: 185px;
+  height: 191px;
+  /* margin-right: 1rem;
+  margin-bottom: 1rem; */
+  padding: 0.85rem 0.5rem 0.25rem 0.5rem;
+}
+
+@media print {
+  .qrCodeElement,
+  div {
+    break-inside: avoid;
+  }
+}
+
+.qrCodeElement svg {
+  display: inline-block;
+}

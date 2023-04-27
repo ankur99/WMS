@@ -1,0 +1,19 @@
+.button {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 0px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 8px;
+  appearance: none;
+  margin-bottom: 1rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

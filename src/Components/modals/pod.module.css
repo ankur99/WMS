@@ -1,0 +1,20 @@
+.images{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+    }
+    .button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: white;
+        z-index: 1000
+    }
+    .button:hover {
+        background-color: white !important;
+    }
+    .button:focus {
+        background-color: white !important;
+    }
+    
