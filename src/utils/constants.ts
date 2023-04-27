@@ -360,7 +360,7 @@ export const tagsColor = {
 };
 
 //allTagsTypes
-export const allTags = ["1K", "Club 1K", "Retail", "Semi-Wholesale", "Wholesale"];
+export const allTags = ["Club", "Retail", "Semi-Wholesale", "Wholesale"];
 
 export const businessDocumentsInfo = [
   "Only Image and PDF type is allowed",

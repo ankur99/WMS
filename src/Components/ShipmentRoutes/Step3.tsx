@@ -33,7 +33,7 @@ const Step3 = ({ routesArray, routeDetail, setRoutesArray, type, id }: PropType)
 
     const params = {
       name: routeDetail.route_name,
-      type: "1k",
+      type: "WMS",
       startPoint: routeDetail.starting_point.value,
       stores: routesParam
     };
